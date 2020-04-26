@@ -25,10 +25,7 @@ tokenizer = Tokenizer()
     -O /tmp/sonnets.txt
 data = open('/tmp/sonnets.txt').read()
 
-#data = open('TS.txt').read()
-
 corpus = data.lower().split(".")
-
 
 tokenizer.fit_on_texts(corpus)
 total_words = len(tokenizer.word_index) + 1
@@ -87,11 +84,13 @@ checkpoint_dir = os.path.dirname(checkpoint_path)
 
 # Create a callback that saves the model's weights
 cp_callback = tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_path,
-                                                 save_weights_only=True,
+                                                 save_best_only=True,
                                                  verbose=1)
 
 early_stopping = tf.keras.callbacks.EarlyStopping(patience=5,monitor='accuracy')
-history = model.fit(predictors, label, epochs=10, verbose=1, callbacks=[early_stopping, cp_callback])
+history = model.fit(predictors, label, epochs=40, verbose=1, callbacks=[early_stopping, cp_callback])
+
+# test the model on a text
 
 #seed_text = "Help me Obi Wan Kenobi, you're my only hope"
 seed_text = "you're face glows like a"
@@ -111,5 +110,3 @@ for _ in range(next_words):
 			break
 	seed_text += " " + output_word
 print(seed_text)
-
-!zip -r /content/file.zip training_1
