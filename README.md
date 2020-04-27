@@ -10,6 +10,16 @@
   - Click on the **Runtime** on the left hand side of the Colab Notebook.
   - Scroll down and Click on the **Change Runtime Type**.
   - Click on the **Hardware Accelerator** and select **TPU** and click **Save**.
+- Run the code given in train_test.py file to get 95% training accuracy.
+
+## Test and Deployment
+- test the model to generate Meaningful text by following the steps:
+  - Save the Model Architecture along with its weights.
+  - Test the model on a random seed text to generate a Poetry.
+- Now we can be able to generate a Meaningful Poetry in Shakespeare Style.   
+  
+  
+## Resources  
 - Detailed Explanation of the code is been given the [Colab Notebook](https://colab.research.google.com/drive/1IHRuukShhjqIh-uBFYPcUqNXE_s5d30S#scrollTo=07QePX57qhuS).
 
    
