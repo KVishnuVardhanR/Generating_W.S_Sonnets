@@ -1,7 +1,7 @@
 # Poetry Generation of W.S Sonnets
 
 ## Requirements
-- Google Colab
+- Google Colab, Tensorflow 2.x
 
 ## Training
 - We'll use the training data of **William Shakespeare** Sonnets using this [link](https://storage.googleapis.com/laurencemoroney-blog.appspot.com/sonnets.txt).
@@ -15,11 +15,11 @@
 ## Test and Deployment
 - test the model to generate Meaningful text by following the steps:
   - Save the Model Architecture along with its weights.
-  - Test the model on a random seed text to generate a Poetry.
-- Now we can be able to generate a Meaningful Poetry in Shakespeare Style.   
+  - Test the model on a random seed text to generate the Sonnets.
+- Now we can be able to generate a Meaningful Sonnets in Shakespeare Style.   
   
   
 ## Resources  
-- Detailed Explanation of the code is been given the [Colab Notebook](https://colab.research.google.com/drive/1IHRuukShhjqIh-uBFYPcUqNXE_s5d30S#scrollTo=07QePX57qhuS).
+- The code has been trained and tested in the [Colab Notebook](https://colab.research.google.com/drive/1IHRuukShhjqIh-uBFYPcUqNXE_s5d30S#scrollTo=07QePX57qhuS).
 
    
