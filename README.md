@@ -1,4 +1,4 @@
-# Poetry Generation of W.S Sonnets
+# Generation of W.S Sonnets
 
 ## Requirements
 - Google Colab, Tensorflow 2.x
