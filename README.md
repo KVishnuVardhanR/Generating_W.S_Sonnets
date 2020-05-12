@@ -1,4 +1,7 @@
 # Generation of W.S Sonnets
+Generation of William Shakespeare Sonnets is a **Language Modelling** project,where the  model learns to predict the probability of a sequence of phrases to build meaningful sonnets in 
+Shakespeare Style.
+
 
 ## Requirements
 - Google Colab, Tensorflow 2.x
