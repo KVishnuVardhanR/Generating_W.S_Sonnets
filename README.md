@@ -1,5 +1,5 @@
 # Generation of W.S Sonnets
-Generation of William Shakespeare Sonnets is a **Language Modelling** project,where the  model learns to predict the probability of a sequence of phrases to build meaningful sonnets in 
+Generation of William Shakespeare Sonnets is a **Language Modelling** project, where the  model learns to predict the probability of a sequence of phrases to build meaningful sonnets in 
 Shakespeare Style.
 
 
@@ -7,7 +7,7 @@ Shakespeare Style.
 - Google Colab, Tensorflow 2.x
 
 ## Training
-- We'll use the training data of **William Shakespeare** Sonnets using this [link](https://storage.googleapis.com/laurencemoroney-blog.appspot.com/sonnets.txt).
+- We'll use the data of **William Shakespeare** Sonnets from this [link](https://storage.googleapis.com/laurencemoroney-blog.appspot.com/sonnets.txt).
 - As we know training a Language Modelling task is compuationally costly and time consuming, Lets use the Colab TPU's to reduce the cost.
 - Setup the TPU Runtime in Colab by folowing the steps below :
   - Click on the **Runtime** on the left hand side of the Colab Notebook.
